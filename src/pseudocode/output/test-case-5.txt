@@ -1,0 +1,74 @@
+==================================================
+                 CAMPUSTRACK
+==================================================
+        Simple Student Result Management System
+--------------------------------------------------
+Enter student ID: 
+stu106
+Enter student name: 
+kiran
+Enter age: 
+12
+Invalid age. Enter a value between 16 and 30.
+Enter age: 
+20
+
+Select Course
+1. BCA
+2. B.Sc Computer Science
+3. B.E/B.Tech
+Enter course choice: 
+7
+Invalid course choice. Enter a value from 1 to 3.
+Enter course choice: 
+1
+Enter Java marks: 
+110
+Invalid marks. Enter a value between 0 and 100.
+Enter Java marks: 
+95
+Enter SQL marks: 
+-10
+Invalid marks. Enter a value between 0 and 100.
+Enter SQL marks: 
+87
+Enter Aptitude marks: 
+98
+Enter attendance percentage: 
+90
+Enter fee paid: 
+35000
+Invalid fee. Enter an amount from 0 to 30000.00.
+Enter fee paid: 
+30000
+
+==================================================
+              STUDENT SEMESTER REPORT
+==================================================
+Student ID          : stu106
+Student Name        : kiran
+Age                 : 20
+Course              : BCA
+
+--------------- ACADEMIC DETAILS -----------------
+Java Marks          : 95
+SQL Marks           : 87
+Aptitude Marks      : 98
+Total Marks         : 280/300
+Average             : 93.33
+Academic Result     : PASSED
+Grade               : A
+
+--------------- ATTENDANCE DETAILS ---------------
+Attendance          : 90.00%
+Attendance Status   : SUFFICIENT
+
+------------------ FEE DETAILS --------------------
+Semester Fee        : ?30000.00
+Fee Paid            : ?30000.00
+Fee Balance         : ?0.00
+Fee Status          : CLEARED
+
+---------------- FINAL STATUS ---------------------
+Semester Status     : SEMESTER CLEARED
+==================================================
