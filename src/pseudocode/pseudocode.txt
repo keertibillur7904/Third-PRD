@@ -1,0 +1,72 @@
+START
+
+Create Scanner object
+Display CampusTrack heading
+
+Read student ID
+Handle pending newline
+Read complete student name
+
+Read age
+WHILE age is outside 16 to 30
+    Display invalid-age message
+    Read age again
+END WHILE
+
+Display course menu
+Read course choice
+WHILE course choice is outside 1 to 3
+    Display invalid-choice message
+    Read course choice again
+END WHILE
+
+SWITCH course choice
+    CASE 1: Assign BCA and fee 30000
+    CASE 2: Assign B.Sc Computer Science and fee 35000
+    CASE 3: Assign B.E/B.Tech and fee 50000
+END SWITCH
+
+Read Java marks
+Validate using WHILE
+Read SQL marks
+Validate using WHILE
+Read Aptitude marks
+Validate using WHILE
+
+Calculate total marks
+Calculate average using division by 3.0
+
+Check whether all three subjects are passed
+Assign academic result
+
+IF any subject is failed
+    Grade is F
+ELSE IF average is at least 75
+    Grade is A
+ELSE IF average is at least 60
+    Grade is B
+ELSE IF average is at least 50
+    Grade is C
+ELSE
+    Grade is D
+END IF
+
+Read attendance
+Validate attendance using WHILE
+Assign attendance status using ternary operator
+
+Read fee paid
+Validate fee paid using WHILE
+Calculate fee balance
+Assign fee status using ternary operator
+
+Check academic result, attendance, and fee balance
+Assign final semester status using ternary operator
+
+Display student report
+
+IF final semester status is not cleared
+    Display each applicable reason using separate IF statements
+END IF
+
+STOP
